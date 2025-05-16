@@ -167,7 +167,6 @@ var (
 			"role":              {LABEL, "Role (primary or standby)"},
 			"status":            {GAUGE, "Backend node Status (1 for up or waiting, 0 for down or unused)"},
 			"select_cnt":        {COUNTER, "SELECT statement counts issued to each backend"},
-			"replication_delay": {GAUGE, "Replication delay"},
 		},
 		"pool_backend_stats": {
 			"hostname":   {LABEL, "Backend hostname"},
